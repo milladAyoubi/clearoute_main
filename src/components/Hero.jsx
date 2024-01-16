@@ -39,9 +39,9 @@ const Hero = () => {
             </div>
           </div>
 
-          <div>
+          <div className="lg:flex hidden">
             <div>
-              <img src={HeroImage} alt="" className="w-[100%]" />
+              <img src={HeroImage} alt="" width="100%" />
             </div>
           </div>
         </div>

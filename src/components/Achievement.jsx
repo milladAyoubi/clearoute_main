@@ -9,7 +9,7 @@ import Github from "../assets/img/Github.png";
 
 const Achievement = () => {
   return (
-    <section className="h-screen lg:h-[40vh] flex items-center" id="home">
+    <section className="lg:h-[50vh] my-24 flex items-center" id="home">
       <div className="container mx-auto">
         <div
           className="flex flex-col gap-[45px] lg:flex-row  "
@@ -17,7 +17,7 @@ const Achievement = () => {
           data-aos-delay="3900"
           data-aos-duration="1200"
         >
-          <div className="py-12 px-6 shadow-primary cursor-pointer w-[400px] border-2 border-gray rounded-[20px]">
+          <div className="py-12 px-6 shadow-primary cursor-pointer lg:w-[30%] border-2 border-gray rounded-[20px]">
             <div className="flex flex-col justify-center gap-y-5">
               <div className="flex items-center gap-x-4">
                 <FaRegStar className="text-[2rem]  text-accent" />
@@ -49,7 +49,7 @@ const Achievement = () => {
             </div>
           </div>
 
-          <div className="py-12 px-6 shadow-primary cursor-pointer w-[400px] border-2 border-gray rounded-[20px]">
+          <div className="py-12 px-6 shadow-primary cursor-pointer lg:w-[30%] border-2 border-gray rounded-[20px]">
             <div className="flex flex-col justify-center gap-y-5">
               <div className="flex items-center gap-x-4">
                 <FaRegStar className="text-[2rem]  text-accent" />

@@ -13,7 +13,7 @@ const Memebers = () => {
     setSelectedTab(tab);
   };
   return (
-    <section className="lg:h-[50vh] flex items-center" id="members">
+    <section className="lg:h-[50vh] my-24 flex items-center" id="members">
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-center gap-y-8">
           <div className="flex flex-col items-center justify-center text-center gap-y-4">
