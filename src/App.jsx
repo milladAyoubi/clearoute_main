@@ -3,6 +3,8 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Why from "./components/Why"
 import Achievement from "./components/Achievement";
+import Footer from "./components/Footer"
+import Memebers from "./components/Memebers";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Hero />
       <Why/>
       <Achievement/>
+      <Memebers/>
+      <Footer/>
     </main>
   );
 }
