@@ -2,6 +2,8 @@ import React from "react";
 import WhyImage from "../WhyImage.png";
 import { reviews } from "../constants";
 import { FaRegStar } from "react-icons/fa";
+import { IoTrophyOutline } from "react-icons/io5";
+
 import { FaArrowRight } from "react-icons/fa6";
 
 import People from "../assets/img/People.png";
@@ -17,20 +19,17 @@ const Achievement = () => {
           data-aos-delay="3900"
           data-aos-duration="1200"
         >
-          <div className="py-12 px-6 shadow-primary cursor-pointer lg:w-[30%] border-2 border-gray rounded-[20px]">
+          <div className="py-12 px-6 shadow-primary cursor-pointer lg:w-[30%] border-2 border-gray rounded-3xl hover:border-2 hover:border-white hover:shadow-md transition ">
             <div className="flex flex-col justify-center gap-y-5">
               <div className="flex items-center gap-x-4">
-                <FaRegStar className="text-[2rem]  text-accent" />
+                <FaRegStar className="text-3xl  text-accent" />
                 <h3 className="text-[20px]">4.8 Rating</h3>
               </div>
 
               <div className="flex items-center gap-x-4">
                 <img src={People} alt="people" />
                 <div>
-                  <span className="text-accent font-bold text-[20px]">
-                    +836K
-                  </span>{" "}
-                  Members
+                  <span className="text-accent font-bold">+836K</span> Members
                 </div>
               </div>
 
@@ -42,27 +41,28 @@ const Achievement = () => {
               </div>
 
               <div className="my-4">
-                <div className="text-accent font-medium">
+                <button className="text-accent font-medium flex flex-row items-center gap-x-2">
                   Join Our Community
-                </div>
+                  <FaArrowRight />
+                </button>
               </div>
             </div>
           </div>
 
-          <div className="py-12 px-6 shadow-primary cursor-pointer lg:w-[30%] border-2 border-gray rounded-[20px]">
+          <div className="py-12 px-6 shadow-primary cursor-pointer lg:w-[30%] border-2 border-gray rounded-3xl hover:border-2 hover:border-white hover:shadow-md transition ">
             <div className="flex flex-col justify-center gap-y-5">
               <div className="flex items-center gap-x-4">
-                <FaRegStar className="text-[2rem]  text-accent" />
-                <h3 className="text-[20px]">4.8 Rating</h3>
+                <IoTrophyOutline className="text-3xl  text-accent" />
+                <h3 className="text-[20px]">Awwwards</h3>
               </div>
 
               <div className="flex items-center gap-x-4">
                 <img src={People} alt="people" />
                 <div>
-                  <span className="text-accent font-bold text-[20px]">
-                    +836K
-                  </span>{" "}
-                  Members
+                  <p>
+                    Best of <span className="text-accent font-bold">2021</span>{" "}
+                    on Github
+                  </p>
                 </div>
               </div>
 
@@ -74,9 +74,10 @@ const Achievement = () => {
               </div>
 
               <div className="my-4">
-                <div className="text-accent font-medium">
-                  Join Our Community
-                </div>
+                <button className="text-accent font-medium flex flex-row items-center gap-x-2">
+                  Go To Awards
+                  <FaArrowRight />
+                </button>
               </div>
             </div>
           </div>
