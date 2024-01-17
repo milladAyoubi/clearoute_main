@@ -7,7 +7,12 @@ import { CgMenuRight } from "react-icons/cg";
 
 const Header = ({ setNavMobile }) => {
   return (
-    <header className="fixed backdrop-blur-lg w-full py-6 border-b-2 border-slate z-20">
+    <header
+      className="fixed backdrop-blur-lg w-full py-6 border-b-2 border-slate z-20"
+      data-aos="fade-down"
+      data-aos-delay="900"
+      data-aos-duration="1200"
+    >
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex gap-x-12 items-center">
           <div className="flex items-center gap-x-2">

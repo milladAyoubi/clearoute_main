@@ -10,7 +10,13 @@ import Github from "../assets/img/Github.png";
 
 const Achievement = () => {
   return (
-    <section className="my-24 flex items-center" id="home">
+    <section
+      className="my-24 flex items-center"
+      id="achievement"
+      data-aos="fade-right"
+      data-aos-delay="1000"
+      data-aos-duration="1200"
+    >
       <div className="container mx-auto">
         <div className="flex flex-col gap-[45px] lg:flex-row">
           <div className="py-12 px-6 shadow-primary cursor-pointer lg:w-[60%] border-2 border-gray rounded-3xl card">
@@ -89,8 +95,8 @@ const Achievement = () => {
                 to directly engage with their needs and wants.
               </p>
             </div>
-            <button className=" bg-accent hover:bg-accent-hover focus:bg-transparent focus:border-2 focus:border-accent focus:text-accent  rounded-[15px] w-full h-16 uppercase font-medium text-white tracking-[2px] text-[13px] max-w-[224px]">
-              <div className="flex items-center justify-center gap-x-2">
+            <button className=" bg-accent hover:bg-accent-hover focus:bg-transparent focus:border-2 drop-shadow-[0_10px_10px_rgba(33,123,254,0.25)] hover:-translate-y-1 transition  focus:border-accent focus:text-accent  rounded-[15px] w-full h-16 uppercase font-medium text-white tracking-[2px] text-[13px] max-w-[224px]">
+              <div className="flex items-center justify-center gap-x-4">
                 Discover me
                 <FaArrowRight />
               </div>

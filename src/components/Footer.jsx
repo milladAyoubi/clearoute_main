@@ -31,17 +31,17 @@ const Footer = () => {
           </a>
 
           <div className="flex flex-row gap-x-2 items-center">
-            <a className="hover:text-blue transition " href="#">
-              <img src={Twitter} alt="" />
+            <a className="hover:-translate-y-1 transition " href="#">
+              <img src={Twitter} alt="twitter" />
             </a>
-            <a className="hover:text-blue transition " href="#">
-              <img src={Instagram} alt="" />
+            <a className="hover:-translate-y-1 transition " href="#">
+              <img src={Instagram} alt="instagram" />
             </a>
-            <a className="hover:text-blue transition " href="#">
-              <img src={Facebook} alt="" />
+            <a className="hover:-translate-y-1 transition " href="#">
+              <img src={Facebook} alt="facebook" />
             </a>
-            <a className="hover:text-blue transition " href="#">
-              <img src={Linkedin} alt="" />
+            <a className="hover:-translate-y-1 transition " href="#">
+              <img src={Linkedin} alt="linkedin" />
             </a>
           </div>
         </div>

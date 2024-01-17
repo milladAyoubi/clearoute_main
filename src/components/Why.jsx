@@ -3,7 +3,13 @@ import WhyImage from "../assets/img/Why_Image.png";
 import { FaCheck } from "react-icons/fa";
 const Why = () => {
   return (
-    <section className="my-24 flex items-center" id="why">
+    <section
+      className="my-24 flex items-center"
+      id="why"
+      data-aos="fade-up"
+      data-aos-delay="1000"
+      data-aos-duration="1200"
+    >
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:gap-x-8 lg:justify-between">
           <div className="flex items-center lg:justify-center">
@@ -19,7 +25,7 @@ const Why = () => {
             </div>
           </div>
 
-          <div className="floating ">
+          <div className="floating">
             <img src={WhyImage} alt="WhyImage" width="100%" />
           </div>
         </div>
