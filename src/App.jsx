@@ -9,7 +9,7 @@ import Members from "./components/Members";
 import NavMobile from "./components/NavMobile";
 
 function App() {
-  const [navMobile, setNavMobile] = useState(true);
+  const [navMobile, setNavMobile] = useState(false);
   console.log(navMobile);
   return (
     <main className="max-w-[1920px] overflow-hidden mx-auto">
