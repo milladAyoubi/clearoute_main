@@ -1,6 +1,5 @@
 import React from "react";
-import WhyImage from "../WhyImage.png";
-import { reviews } from "../constants";
+
 import { FaRegStar } from "react-icons/fa";
 import { IoTrophyOutline } from "react-icons/io5";
 
@@ -11,25 +10,22 @@ import Github from "../assets/img/Github.png";
 
 const Achievement = () => {
   return (
-    <section className="lg:h-[50vh] my-24 flex items-center" id="home">
+    <section className="my-24 flex items-center" id="home">
       <div className="container mx-auto">
-        <div
-          className="flex flex-col gap-[45px] lg:flex-row  "
-          data-aos="fade-up"
-          data-aos-delay="3900"
-          data-aos-duration="1200"
-        >
-          <div className="py-12 px-6 shadow-primary cursor-pointer lg:w-[30%] border-2 border-gray rounded-3xl hover:border-2 hover:border-white hover:shadow-md transition ">
+        <div className="flex flex-col gap-[45px] lg:flex-row">
+          <div className="py-12 px-6 shadow-primary cursor-pointer lg:w-[60%] border-2 border-gray rounded-3xl card">
             <div className="flex flex-col justify-center gap-y-5">
               <div className="flex items-center gap-x-4">
-                <FaRegStar className="text-3xl  text-accent" />
+                <FaRegStar className="text-3xl text-accent shake" />
                 <h3 className="text-[20px]">4.8 Rating</h3>
               </div>
 
               <div className="flex items-center gap-x-4">
                 <img src={People} alt="people" />
                 <div>
-                  <span className="text-accent font-bold">+836K</span> Members
+                  <p>
+                    <span className="text-accent font-bold">+836K</span> Members
+                  </p>
                 </div>
               </div>
 
@@ -41,23 +37,23 @@ const Achievement = () => {
               </div>
 
               <div className="my-4">
-                <button className="text-accent font-medium flex flex-row items-center gap-x-2">
-                  Join Our Community
+                <button className="font-medium flex flex-row items-center gap-x-2 hover:text-accent transition">
+                  Join Community
                   <FaArrowRight />
                 </button>
               </div>
             </div>
           </div>
 
-          <div className="py-12 px-6 shadow-primary cursor-pointer lg:w-[30%] border-2 border-gray rounded-3xl hover:border-2 hover:border-white hover:shadow-md transition ">
+          <div className="py-12 px-6 shadow-primary cursor-pointer lg:w-[60%] border-2 border-gray rounded-3xl card">
             <div className="flex flex-col justify-center gap-y-5">
               <div className="flex items-center gap-x-4">
-                <IoTrophyOutline className="text-3xl  text-accent" />
+                <IoTrophyOutline className="text-3xl text-accent shake" />
                 <h3 className="text-[20px]">Awwwards</h3>
               </div>
 
               <div className="flex items-center gap-x-4">
-                <img src={People} alt="people" />
+                <img src={Github} alt="people" />
                 <div>
                   <p>
                     Best of <span className="text-accent font-bold">2021</span>{" "}
@@ -74,7 +70,7 @@ const Achievement = () => {
               </div>
 
               <div className="my-4">
-                <button className="text-accent font-medium flex flex-row items-center gap-x-2">
+                <button className="font-medium flex flex-row items-center gap-x-2 hover:text-accent transition">
                   Go To Awards
                   <FaArrowRight />
                 </button>
@@ -83,8 +79,8 @@ const Achievement = () => {
           </div>
 
           <div className="flex flex-col gap-y-8">
-            <div className="lg:max-w-[520px]">
-              <p className=" text-accent/90 font-medium my-4 flex gap-x-1 text-[20px]">
+            <div className="">
+              <p className=" text-accent/90 font-medium mb-2 flex gap-x-1 text-md">
                 Our Achievement
               </p>
               <h2 className="h2">We are Connecting You The Digital Life.</h2>
@@ -93,7 +89,7 @@ const Achievement = () => {
                 to directly engage with their needs and wants.
               </p>
             </div>
-            <button className=" bg-accent hover:bg-accent-hover rounded-[15px] w-full h-16 uppercase font-medium text-white tracking-[2px] text-[13px] max-w-[224px]">
+            <button className=" bg-accent hover:bg-accent-hover focus:bg-transparent focus:border-2 focus:border-accent focus:text-accent  rounded-[15px] w-full h-16 uppercase font-medium text-white tracking-[2px] text-[13px] max-w-[224px]">
               <div className="flex items-center justify-center gap-x-2">
                 Discover me
                 <FaArrowRight />
